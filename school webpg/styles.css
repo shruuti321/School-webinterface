@@ -1,0 +1,236 @@
+
+.form p{
+	width:240px;
+	height:40px;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	background-color:orange;
+	border-radius:10px;
+	margin:1px;
+	padding-top:5px;
+	font-weight:bold;
+	}
+	
+
+
+.below{
+	color:white;
+	background:transparent;
+	border:2px solid #fff;
+	border-radius:30px;
+	padding:10px 30px;
+	font-size:15px;
+	cursor:pointer;
+}
+
+.form{
+	width:250px;
+	height:250px;
+	background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	position:absolute;
+	top:250px;
+	left:1200px;
+	border-radius:10px;
+	padding:25px;
+}	
+
+.form input{
+	width:240px;
+	height: 35px;
+	background:transparent;
+	border-bottom:1px solid orange;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	color:white;
+	font-size:15px;
+	letter-spacing:1px;
+	margin-top:28px;
+	border-radius:3px;
+	}
+	
+	.btn{
+	
+	width:100px;
+	height:40px;
+	text-align:center;
+	background-color:orange;
+	margin-top:30px;
+	font-size:20px;
+	color:white;
+	border-radius:10px;
+	cursor:pointer;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	justify-content:center;
+	padding-top:5px;
+	}
+	
+	
+
+
+.feature{
+	/*background-color:black;*/
+	height:50vh;
+	padding:0 80px;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+}
+
+/*body{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url("sch1.jpg");
+	background-repeat:no-repeat;
+	background-position:cover;
+
+}*/
+
+.boxes{
+	padding:0px 40px;
+	display:flex;
+	flex-direction:column; 
+	align-items:center;
+	justify-content:space-evenly;
+	transition:0.3s ease-in-out;
+	
+}
+.boxes:hover{
+	box-shadow:0px 5px 15px rgb(82, 72, 72);
+	cursor:pointer;
+}
+
+h4,h5,h6,h7{
+	color:white;
+	font-size:15px;
+}
+
+.footer{
+
+	padding:55px 15%;
+	background:#333;
+	display:flex;
+}
+
+.footer div{
+	text-align:center;
+}
+.col2{
+	flex-grow:2;
+}
+
+h8,h9,h10{
+	color:white;
+		font-weight:300;
+		margin-bottom:30px;
+		letter-spacing:1px;
+}
+.col3 a{
+display:block;
+text-decoration:none; 
+color:white;
+font-size:16px;
+margin-bottom:10px;
+margin-top:10px;
+}
+.foot input{
+	width:300px;
+	height:45px;
+	border-radius:4px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+	outline:none;
+	border:none;
+}
+
+
+.social-icons a{
+	font-size:22px;
+	margin:10px;
+	cursor:pointer;
+	color:white;
+	text-decoration:none;
+}
+#photo{
+	border-radius:10px;
+	
+}
+main{
+	width:100%;
+height:40vh;
+display:flex;
+justify-content:center;
+text-align:center;
+align-items:center;
+}
+
+body{
+background-color:black;
+
+}
+
+
+.bar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.bar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bar a:hover {
+  background-color: grey;
+  color: black;
+}
+
+h1,h2,h3{
+color:white;
+font-weight:bold;
+
+}
+p{
+color:white;
+}
+
+#logo{
+	float:left;
+	
+}
+
+
+section h2{
+	font-size:55px;
+font-weight:bold;
+letter-spacing:3px;
+	text-shadow:1px 1px 2px solid orange;
+	text-shadow: 0 2px solid orange 0 3px #777;
+
+}
+
+section h3{
+	margin:5px 0 20px 0;
+font size:75px;
+font weight:700;
+text-shadow:2px 1px 5px black;
+text-transform:uppercase;
+
+}
+
+header{
+
+	width:100%;height:100%;
+	background-image:linear-gradient(90deg, rgba(2,0,36,0.4265056364342612) 0%, rgba(228,154,24,0.28925073447347693) 35%, rgba(0,212,255,0.2528361686471463) 100%),url("sch1.jpg");
+	background-repeat:no repeat;
+	background-size:cover;
+	
+};
+

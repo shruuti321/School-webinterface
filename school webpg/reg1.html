@@ -1,0 +1,337 @@
+<html>
+<head>
+<title>Registration form</title>
+
+<script src="https://kit.fontawesome.com/c1848910eb.js" crossorigin="anonymous"></script>
+<style>
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.align{
+	text-align:center;
+	margin:auto;
+}
+.button{
+	background-color: orange;
+	color:white;
+	padding:10px;
+	font-size:70%;
+	border-radius:5px;
+	font-weight:bold;
+}
+table.left{
+	border-bottom:0px solid orange;
+border-top:0px solid orange;
+border-right:0px solid orange;
+border-left:0px solid orange;
+width:30%;
+
+}
+th,td{
+	padding:5px;
+}
+.form input,select{
+width:240px;
+height: 35px;
+background:transparent;
+border-bottom:2px solid orange;
+border-top:2px solid orange;
+border-right:2px solid orange;
+border-left:2px solid orange;
+color:white;
+font-size:15px;
+letter-spacing:1px;
+margin-top:2px;
+border-radius: 5px;
+}
+
+.form textarea{
+	width:240px;
+	background:transparent;
+border-bottom:2px solid orange;
+border-top:2px solid orange;
+border-right:2px solid orange;
+border-left:2px solid orange;
+color:white;
+font-size:15px;
+letter-spacing:1px;
+margin-top:2px;
+border-radius: 5px;
+}
+.form input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1em;
+}
+table {
+	border-radius: 10px;
+	width:45%;
+	/*border-collapse: collapse;*/
+	border: 3px solid orange;
+	text-align: center;
+	vertical-align: middle;
+}
+
+th,td{
+	padding:5px;
+	
+}
+body{
+	background-color:black;
+	background-image:url("wallp.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+color:white;
+font-size:25px;
+
+}
+
+h1,h2{
+	color:white;
+	margin:0px;
+	padding:0px;
+}
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+.dropdown-content {
+  background-color: rgba(17, 16, 16, 0.984);
+  color: white;
+}
+.footer{
+
+padding:45px 15%;
+margin-top:20px;
+padding-top:35px;
+background:#333;
+display:flex;
+}
+
+.footer div{
+text-align:center;
+}
+.col2{
+flex-grow:2;
+}
+
+.col1{
+	font-size:14px;
+}
+h3,h4,h5{
+color:white;
+	font-size:16px;
+	font-weight:300;
+	margin-bottom:10px;
+	letter-spacing:1px;
+}
+
+.col3 a{
+display:block;
+text-decoration:none; 
+color:white;
+font-size:16px;
+margin-bottom:10px;
+margin-top:10px;
+}
+.foot{
+width:300px;
+height:45px;
+border-radius:4px;
+text-align:center;
+margin-top:10px;
+margin-bottom:20px;
+outline:none;
+border:none;
+}
+
+.sub{
+color:white;
+background:transparent;
+border:2px solid #fff;
+border-radius:30px;
+padding:10px 30px;
+font-size:15px;
+cursor:pointer;
+
+
+}
+
+.social-icons a{
+font-size:22px;
+margin:10px;
+cursor:pointer;
+color:white;
+text-decoration:none;
+}
+
+</style>
+</head>
+<body text-align:"center">
+
+<h1 style="text-align:center;"><b>MODERN PUBLIC SCHOOL</b></h1>
+
+<h2 style="text-align:center;"><b>ADMISSION FORM</b></h2>
+<br>
+
+<div class="form">
+<form name="registration" action="project.php" method="post">
+	
+<table class="left">
+<!--<tr><td>
+<label for="form">Form no:</label></td>
+
+<td>
+<input type="text" id="form" name="formid"></td></tr> -->
+<tr><td>
+<label for="date">Date:</label></td>
+<td>
+<input type="date" id="name" name="date"></td>
+</tr>
+</table>
+<b><center>STUDENT'S PROFILE</center></b>
+<br>
+<table class="center">
+	<tr>
+<td><label for="name">Name of pupil:</label></td>
+<td><input type="text" id="name" name="name"></td>
+</tr>
+<tr><td>
+<label for="class">Admission sought for class:</label></td>
+<td>
+<select class="dropdown-content" name="class">
+	
+	<option value="sel">--Select--</option>
+	<option value="PP1">PrePrimary-I</option>
+	<option value="PP2">PrePrimary-II</option>
+	<option value="1">I</option>
+	<option value="2">II</option>
+	<option value="3">III</option>
+	<option value="4">IV</option>
+	<option value="5">V</option>
+	<option value="6">VI</option>
+	<option value="7">VII</option>
+	<option value="8">VIII</option>
+	<option value="9">IX</option>
+	<option value="10">X</option>
+	<option value="11">XI</option>
+	<option value="12">XII</option>
+	
+</select>
+</td></tr>
+<tr><td>
+<label for="acad">Academic year:</label></td>
+<td>
+<select class="dropdown-content" name="acad">
+
+<option value="2023-24">2023-24</option>
+</select>
+</td></tr>
+<tr><td>
+	<label for="DOB">Date of birth:</label></td>
+<td><input type="date" name="day"></td></tr>
+
+<tr><td>
+<label for="adh">Adhaar card no:</label></td>
+<td>
+<input type="text"  name="adh"></td></tr>
+<tr>
+	<td><label for="place">Place of birth:</label></td>
+
+<td><input type="text" name="place"></td></tr>
+
+<tr>
+
+<td><label for="state">State:</label></td>
+
+<td><input type="text" name="state"></td></tr>
+<tr><td>
+<label for="nat">Nationality:</label></td>
+<td><input type="text" name="nat"></td></tr>
+
+<tr><td><label for="rel">Religion:</label></td>
+
+<td><input type="text" name="rel"></td></tr>
+<tr class="gen"><td>
+<label for="gen">Gender:</label></td>
+<td>
+Male
+<input type="radio" name="gen" value="male">
+Female
+<input type="radio" name="gen" value="female">
+</td></tr>
+<tr><td>
+<label for="caste">Caste:</label></td>
+<td>
+<select class="dropdown-content" name="caste">
+<option value="General">General</option>
+<option value="SC">SC</option>
+<option value="ST">ST</option>
+<option value="OBC">OBC</option>
+
+</select>
+</td></tr>
+<tr><td>
+	<label for="add">Residential Address:</label></td>
+<td>
+<textarea rows="5" cols="20" name="addr"></textarea></td></tr>
+<tr><td>
+<label for="pin">Pincode:</label></td>
+<td>
+<input type="text" name="pin"></td></tr>
+<tr><td>
+	<label for="bg">Blood group:</label></td>
+	<td>
+<input type="text" name="bg" size="8"></td></tr>
+<tr><td>
+	<lable for="pwd">Create Password:</lable>
+
+</td>
+<td><input type="Password" name="pwd"></td></tr>
+</table>
+</div>
+<div class="align">
+<input type="submit"  value="SUBMIT" class="button">
+</div>
+<a name="bottom"></a>
+<div class="footer">
+	<div class="col1">
+		<h3>CONTACT</h3>
+		<p>123, XYZ Road</p>
+		<p>Shreshtha Vihar</p>
+		<p>Delhi</p>
+		<div class="social-icons">
+			<a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank"></a>
+			<a href="https://twitter.com/?lang=en" class="fab fa-twitter" target="_blank"></a>
+			<a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a>
+			<a href="https://in.linkedin.com/" class="fab fa-linkedin" target="_blank"></a>
+			
+		</div>
+	</div> 
+
+
+<div class="col2">
+	<h4>NEWSLETTER</h4>
+	<form>
+		<input type="email" placeholder="Enter your email Address" required class="foot">
+		<br>
+		<button class="sub">SUBSCRIBE NOW</button>
+	</form>
+</div>
+<div class="col3">
+	<h5>QUICK LINKS</h5>
+		<a href="http://localhost/school%20webpg/shruti.html" class="link">Home</a>
+		<a href="http://localhost/school%20webpg/reg1.html" class="link">Registration</a>
+		<a href="#bottom" class="link">Contact</a>
+		<a href="http://localhost/school%20webpg/about.html" class="link">About</a>
+	</div>
+
+</div> 
+
+</form>
+</body>
+
+</html>
